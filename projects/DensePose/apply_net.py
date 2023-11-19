@@ -36,6 +36,7 @@ from densepose.vis.densepose_results_textures import (
     DensePoseResultsVisualizerWithTexture,
     get_texture_atlas,
 )
+
 from densepose.vis.extractor import (
     CompoundExtractor,
     DensePoseOutputsExtractor,
