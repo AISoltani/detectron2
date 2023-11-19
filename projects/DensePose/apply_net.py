@@ -43,6 +43,7 @@ from densepose.vis.extractor import (
     create_extractor,
 )
 
+
 DOC = """Apply Net - a tool to print / visualize DensePose results
 """
 
