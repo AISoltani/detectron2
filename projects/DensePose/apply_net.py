@@ -24,12 +24,14 @@ from densepose.vis.densepose_outputs_vertex import (
     DensePoseOutputsVertexVisualizer,
     get_texture_atlases,
 )
+
 from densepose.vis.densepose_results import (
     DensePoseResultsContourVisualizer,
     DensePoseResultsFineSegmentationVisualizer,
     DensePoseResultsUVisualizer,
     DensePoseResultsVVisualizer,
 )
+
 from densepose.vis.densepose_results_textures import (
     DensePoseResultsVisualizerWithTexture,
     get_texture_atlas,
