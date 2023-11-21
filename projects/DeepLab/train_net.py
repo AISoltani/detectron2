@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 # Copyright (c) Facebook, Inc. and its affiliates.
-
 """
 DeepLab Training Script.
 
 This script is a simplified version of the training script in detectron2/tools.
 """
-
 import os
 
 import detectron2.data.transforms as T
