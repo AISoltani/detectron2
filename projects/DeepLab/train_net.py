@@ -15,7 +15,6 @@ from detectron2.engine import DefaultTrainer, default_argument_parser, default_s
 from detectron2.evaluation import CityscapesSemSegEvaluator, DatasetEvaluators, SemSegEvaluator
 from detectron2.projects.deeplab import add_deeplab_config, build_lr_scheduler
 
-
 def build_sem_seg_train_aug(cfg):
     augs = [
         T.ResizeShortestEdge(
